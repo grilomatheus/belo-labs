@@ -1,0 +1,35 @@
+.wallet-container {
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.wallet-button {
+  font-family: 'Press Start 2P', cursive;
+  width: 300px;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #4a4e69, #22223b);
+  border: 2px solid #9a8c98;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.wallet-button:hover {
+  background: linear-gradient(90deg, #6c757d, #343a40);
+  box-shadow: 0 0 20px #fff;
+  transform: scale(1.05);
+}
+
+.wallet-address {
+  font-family: 'Orbitron', sans-serif;
+  color: #ffcc00;
+  font-size: 1rem;
+
+  span {
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
